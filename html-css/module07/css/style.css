@@ -193,7 +193,7 @@ img{
 
 .contact-us{
     padding:92px 0 186px 0;
-    background:var(--dark-color) url("/img/Trial.png") no-repeat ;
+    background:var(--dark-color) url("../img/Trial.png") no-repeat ;
    background-position:  top 130px right 0px;   
 }
 
