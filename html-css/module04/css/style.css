@@ -107,12 +107,13 @@ h2:last-of-type{
     height: 320px;
     font-size: 18px;
     line-height:32px;
-    letter-spacing:-0.05em;
+    letter-spacing:-1px;
     float:left;
     background-color:rgb(232, 239, 252);
     font-family: 'Open Sans', semi-bold;
     margin-right:30px;
     font-weight:700;
+    position: relative;
 }
 
 .features-list-item:nth-child(4n){
@@ -134,30 +135,20 @@ margin-bottom:30px;
 background-color:rgb(26,188,156);
 } 
 
-.features-list-item p:after{
+.features-list-item .price {
+    position: absolute;
+    display:inline-block;
     color:white;
     line-height: 40px;
     height:40px;
     width:54px;
     text-align:center;
-    float:right;
-    background-color: rgba(255, 255, 255, 0.439);   
-}
-
-.slides:after ,.handbag:after{
-    content:"\0024 26";
-}
-
-.brownbelt:after ,.blackbelt:after{
-    content:"\0024 31";
-}
-
-.hat:after ,.shoes:after{
-    content:"\0024 21";
-}
-
-.bluebag:after ,.glasses:after{
-    content:"\0024 56";
+    background-color: rgba(255, 255, 255, 0.439);  
+    bottom:-4px;
+    right:0;
+    padding: 0;
+    
+ 
 }
 
 .img-container{
@@ -236,9 +227,8 @@ button{
     background-color:rgb(26, 188, 156);
     border:none;
     border-radius: 3px;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
+   
 }
       
-
-
+  
 
