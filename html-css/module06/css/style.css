@@ -213,7 +213,7 @@ flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     opacity:0;
-    
+    transition: opacity 0.3s ease-out;
 }
 
 .social-list-items{
@@ -245,19 +245,16 @@ flex-wrap: wrap;
     
 }
 
-.social-list{
-    transition: all 0.3s ;
-}
+
 
 .team-list-item:hover .undercontain{
-    left:-10px;
-    top:-10px; 
+   transform: translate(-10px,-10px)
 }
 
 .undercontain{
     background-color: rgb(149, 225, 211);
     position:relative;
-    transition-duration: 4s;
+    transition: transform 0.3s ease-out;
     
 }
 

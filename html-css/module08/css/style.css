@@ -24,12 +24,15 @@ h2, h4, h1{
 text-align: center;
 }
 
+.bgcontainer{
+    background:   rgb(26, 25, 21) url("../img/banner.png") center center ;   
+    background-size: cover;
+}
 
 
 header{
      color:#ffffff;
-    background:   rgb(26, 25, 21) url("../img/banner.png") center center ;   
-    background-size: cover;
+    
        
 }
 
