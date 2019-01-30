@@ -90,9 +90,10 @@ h2::after{
     margin:38px auto 0;
 }
 
-h4{
+section p:first-of-type{
     text-align:center;
     font-family: 'Kaushan Script', cursive;
+    font-weight:400;
     font-size: 24px;
     margin-bottom:20px;
 }
