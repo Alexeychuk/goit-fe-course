@@ -1,0 +1,36 @@
+.navigation-list{
+    width:625px;
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+
+
+    &__item{
+        @include font-settings(14px,44px);
+        text-transform: uppercase;    
+    }
+
+    &__item:last-child{
+        margin-right:0;
+    }
+
+    &__link{
+        color:$header-brand-color;
+        display: block;
+        text-decoration: none;
+        font-weight: 500;
+        border-bottom:3px solid rgba(243,129,129,0);
+    }
+
+    &__link:hover, &__link:focus{
+        border-bottom: 3px solid $hover-navigation-color;
+        color: $hover-navigation-color;    
+    }
+
+    &__item-icon{
+        fill:$header-brand-color;
+        width: 30px;
+        height: 15px;  
+    }
+
+}

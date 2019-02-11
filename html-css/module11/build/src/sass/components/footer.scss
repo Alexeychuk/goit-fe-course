@@ -1,0 +1,53 @@
+.footer{    
+    border-top: 1px solid $footer-main-color;
+    @include center-flex('between');
+    flex-direction: row;
+
+
+    &__author-link{
+        text-decoration: none;
+        color:$brand-color;
+    }
+
+    &__copyright-text{
+        @include font-settings(14px, 62px , 600); 
+        color: rgb(51, 51, 51);
+    }
+
+    &__form{
+        width:380px;
+        height:40px;
+        display: inline-block;
+        font-size:0;
+        padding-top:12px;
+    }
+
+    &__email{
+        width:230px;
+        height:40px;
+        @include font-settings(15px, 24px , 300);
+        padding:8px 0 8px 12px;
+        border: 1px solid $footer-main-color;
+        color: $footer-main-color;
+        font-family: $description-font;
+        font-style:italic;
+    }
+
+    &__subscribe-button {
+        width:150px;
+        height:40px;
+        @include font-settings(14px, 1.2 , 700);
+        padding:8px 0 8px 0px;
+        text-transform: uppercase;
+        background-color: $accent-color;
+        color:$header-brand-color;
+        border:0;   
+    }
+    
+    &__subscribe-button:hover {
+        cursor: pointer;
+    }
+}
+
+
+

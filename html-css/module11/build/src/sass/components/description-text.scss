@@ -1,0 +1,6 @@
+.description-text{
+    font-family:$description-font; 
+    @include font-settings(15px, 24px , 400);
+    color:#999999;
+
+}
